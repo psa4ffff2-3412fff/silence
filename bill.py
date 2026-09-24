@@ -6,6 +6,6 @@ if service == "Bad":
 if service == "Okay":
     print (f"Your bill is {bill * 1.15}"  )
 if service == "Good":
-    (f"Your bill is {bill * 1.20}"  )
+    print (f"Your bill is {bill * 1.20}"  )
 if service == "Great":
-    (f"Your bill is {bill * 1.25}"  )
+    print (f"Your bill is {bill * 1.25}"  )
