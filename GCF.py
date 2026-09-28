@@ -4,4 +4,4 @@ def GCF(x, y):
             if GCF % y == 0 and GCF % x == 0:
                 print(x, y)
 x = int(input("I can find GCF (if it's positive). Insert 2 numbers."))
-x.split (" ")
+input.x.split (" ")
