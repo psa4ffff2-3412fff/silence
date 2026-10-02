@@ -1,10 +1,7 @@
-
-n=str
-f=str
-e=str
 french=0
 english=0
-for i in range(n):
+def language (n, f, e):
+    for i in range(n):
         if f[i]== "s" or "S":
             french +=1
         if e[i]=="T" or "t":
@@ -14,4 +11,4 @@ for i in range(n):
 
         else:
             print ("French")
-n("ttttttttttt")
+language("ttttttttttt")
