@@ -1,5 +1,5 @@
-x= int(input("I can find GCF (if it's positive). Insert 1 number."))
-y=int(input("insert second number"))
+x= int(input("I can find GCF (if it's positive). Insert 1 integer."))
+y=int(input("insert second integer"))
 
 factor_x=list()
 for i in range(1, x+1):
