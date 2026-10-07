@@ -4,9 +4,9 @@ def wizards(n,start,duels):
     change_hands=1
     wand_winners.append(start)
     for i in range(0,n):
-        if duels[i][1] == owner:  #i=0 , owner=A, duels[i][1]=A
+        if duels[i][1] == owner:                #i=0 , owner=A, duels[i][1]=A
             owner = duels[i][0]
-            # if owner is not in wand winners then add 1 and add to wand winners
+                                                # if owner is not in wand winners then add 1 and add to wand winners
             if is_owner_winning_for_first_time(owner, wand_winners):
                 change_hands+=1
                 wand_winners.append(owner)
@@ -14,8 +14,8 @@ def wizards(n,start,duels):
     print(change_hands)
 
 def is_owner_winning_for_first_time(owner, wand_winners): #winning first time  
-    #return false if owner in wand winners
-    #return true if not in wand winners
+                                                        #return false if owner in wand winners
+                                                        #return true if not in wand winners
     for j in wand_winners:
         if j == owner:
             return False
